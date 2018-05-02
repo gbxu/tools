@@ -7,7 +7,7 @@ python helloworld.py
 ```
 then 
 ```bash
-nohup ./start_from_here.sh 3 /home/username pre > repeat_test.out
+nohup ./start_from_here.sh 3 /home/username pre > repeat_test.out &
 ```
 
 * `3` means the repeating times
