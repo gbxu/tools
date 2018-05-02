@@ -16,7 +16,7 @@ nohup ./start_from_here.sh 3 /home/username pre > repeat_test.out
 
 finally, you will get `3` log files and 1 `repeat_test.out`in `/home/username` as follows:
 ```bash
-username@ubuntu:ls
+username@ubuntu$ ls
 pre_test_yours_0.txt
 pre_test_yours_1.txt
 pre_test_yours_2.txt
