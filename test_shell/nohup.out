@@ -1,0 +1,17 @@
+repeat 0: ./test_yours.sh
+./repeat.sh: line 15: done: command not found
+DONE
+repeat 0: ./test_yours.sh
+done
+repeat 1: ./test_yours.sh
+done
+repeat 2: ./test_yours.sh
+done
+DONE
+repeat 0: ./test_yours.sh
+done
+repeat 1: ./test_yours.sh
+done
+repeat 2: ./test_yours.sh
+done
+DONE

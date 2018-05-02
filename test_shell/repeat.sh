@@ -12,7 +12,7 @@ for ((i=0; i<${np}; ++i)); do
     echo "repeat $i: $@"
     str="`echo $@`"
     substr=${str:2:(${#str}-5)}
-    `nohup $@ > $dir/$prefix\_$substr\_$i.txt`
+    nohup $@ > $dir/$prefix\_$substr\_$i.txt  && echo "done"
     if [ $? != 0 ]; then
         break
     fi
